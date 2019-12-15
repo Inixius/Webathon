@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML Quiz</title>
+        <link rel="stylesheet" href="stylesheetquiz.css">
+    </head>
+    <body>
+        <header>
+            <p>Quiz<span>Tion</span></p>
+        </header>
+        <div class="HTML title">
+            <h1>HTML Quiz</h1>
+        </div>
+        <div class="main">
+            <div class="left">
+                UNDER DEVELOPMENT
+                <table border="4">
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="middle">
+                <div class="question">
+                    <h1>Q1. What does &lt;hr&gt; stand for?</h1>
+                    <input class="option" type="radio" name="question1" value=0 onclick="changebackground()"><span>Horizontal line</span><br>
+                    <input class="option" type="radio" name="question1" value=1 onclick="changebackground()"><span>Horizontal rule</span><br>
+                    <input class="option" type="radio" name="question1" value=0 onclick="changebackground()"><span>Horizontal border</span><br>
+                </div>
+                <div class="question">
+                    <h1>Q2. Which one of the following tags is used to make a drop-down list?</h1>
+                    <input class="option" type="radio" name="question2" value=0 onclick="changebackground()"><span>&lt;input type="dropdown"&gt;</span><br>
+                    <input class="option" type="radio" name="question2" value=1 onclick="changebackground()"><span>&lt;select&gt;</span><br>
+                    <input class="option" type="radio" name="question2" value=0 onclick="changebackground()"><span>&lt;input type="list"&gt;</span><br>
+                </div>
+                <div class="question">
+                    <h1>Q3. &lt;iframe&gt; is used to display a web page within a web page.</h1>
+                    <input class="option" type="radio" name="question3" value=1 onclick="changebackground()"><span>True</span><br>
+                    <input class="option" type="radio" name="question3" value=0 onclick="changebackground()"><span>False</span><br>
+                    <input class="option" type="radio" name="question3" value=0 onclick="changebackground()"><span>What's &lt;iframe&gt;??</span><br>
+                </div>
+                <div class="question">
+                    <h1>Q4. What does &lt;li&gt; stand for?</h1>
+                    <input class="option" type="radio" name="question4" value=0 onclick="changebackground()"><span>List</span><br>
+                    <input class="option" type="radio" name="question4" value=0 onclick="changebackground()"><span>Line item</span><br>
+                    <input class="option" type="radio" name="question4" value=1 onclick="changebackground()"><span>List item</span><br>
+                </div>
+                <div class="question">
+                    <h1>Q5. Which one of the following tags is used to make a text area?</h1>
+                    <input class="option" type="radio" name="question5" value=0 onclick="changebackground()"><span>&lt;input type="textarea"&gt;</span><br>
+                    <input class="option" type="radio" name="question5" value=0 onclick="changebackground()"><span>&lt;input type="textbox"&gt;</span><br>
+                    <input class="option" type="radio" name="question5" value=1 onclick="changebackground()"><span>&lt;textarea&gt;</span><br>
+                </div>
+                <div class="question">
+                    <h1>Q6. Fill in the blanks: &lt;link ___="stylesheet" ___="stylesheet.css"&gt;</h1>
+                    <input class="option" type="radio" name="question6" value=1 onclick="changebackground()"><span>rel, href</span><br>
+                    <input class="option" type="radio" name="question6" value=0 onclick="changebackground()"><span>rel, src</span><br>
+                    <input class="option" type="radio" name="question6" value=0 onclick="changebackground()"><span>src, href</span><br>
+                </div>
+                <div class="question">
+                    <h1>Q7. What is (a) and (b) in the given image? <img src="htmlquestion7.jpg"></h1>
+                    <input class="option" type="radio" name="question7" value=0 onclick="changebackground()"><span>(a) padding (b) border</span><br>
+                    <input class="option" type="radio" name="question7" value=1 onclick="changebackground()"><span>(a) border (b) padding</span><br>
+                    <input class="option" type="radio" name="question7" value=0 onclick="changebackground()"><span>(a) cellpadding (b) cellspacing</span><br>
+                </div>
+                <div class="question">
+                    <h1>Q8. How is colour applied to texts?</h1>
+                    <input class="option" type="radio" name="question8" value=1 onclick="changebackground()"><span>&lt;font color="color"&gt;...&lt;/font&gt;</span><br>
+                    <input class="option" type="radio" name="question8" value=0 onclick="changebackground()"><span>&lt;tagname color="color"&gt;</span><br>
+                    <input class="option" type="radio" name="question8" value=0 onclick="changebackground()"><span>We can apply colour without CSS?</span><br>
+                </div>
+                <div class="question">
+                    <h1>Q9. Which one of the following is used to add background image to body tag?</h1>
+                    <input class="option" type="radio" name="question9" value=1 onclick="changebackground()"><span>&lt;body background="image.jpg"&gt;</span><br>
+                    <input class="option" type="radio" name="question9" value=0 onclick="changebackground()"><span>&lt;body backgroundimage="image.jpg"&gt;</span><br>
+                    <input class="option" type="radio" name="question9" value=0 onclick="changebackground()"><span>&lt;body bgimage="image.jpg"&gt;</span><br>
+                </div>
+                <div class="question">
+                    <h1>Q10. Do you you like HTML?</h1>
+                    <input class="option" type="radio" name="question10" value=1 onclick="changebackground()"0><span>Yes</span><br>
+                    <input class="option" type="radio" name="question10" value=-10><span>No</span><br>
+                    <input class="option" type="radio" name="question10" value=0 onclick="changebackground()"><span>Maybe, maybe not</span><br>
+                </div>
+                <div class="submit">
+                                        <span class="btn">Submit</span>
+
+<!--                    <span class="btn" onclick="result()">Submit</span>-->
+                </div>
+            </div>
+            <div class="right">
+                <img src="quote.jpg">
+                <img src="https://i.pinimg.com/originals/9d/51/33/9d5133733f17be20ac6abd8aa78dd0d2.png">
+                <img src="https://i.redd.it/y3bg31c45kj01.jpg">
+                <img src="https://pbs.twimg.com/media/DFcGTpsXoAM201t.jpg">
+                <img src="https://cdn.shopify.com/s/files/1/0017/0432/9285/files/programming-quotes-for-developers-made4dev-lollipop.jpg?v=1539287550">
+                <img src="https://julxrp.files.wordpress.com/2016/06/everyone-should-know-how-to-program-a-computer-steve-jobs-840x560.jpg">
+                <img src="https://cdn.shopify.com/s/files/1/0017/0432/9285/files/programming-quotes-for-developers-made4dev-code-as-if.jpg?v=1539287546">
+                <img src="https://quotefancy.com/media/wallpaper/3840x2160/1119153-Alan-Turing-Quote-Programming-is-a-skill-best-acquired-by-practice.jpg">
+                <img src="https://codehousemedia.com.au/wp-content/uploads/2018/10/Programming-Quotes-12.jpg">
+            </div>
+        </div>
+        <footer>
+            <p>Quiz<span>Tion</span></p><p class="takeshi">made by Takeshi Yamamoto</p>
+        </footer>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>
