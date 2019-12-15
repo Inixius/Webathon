@@ -1,0 +1,164 @@
+body {
+    padding: 0px;
+    margin: 0px;                                             
+}
+
+.title {
+    padding: 180px 0 100px 0;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    height: 473px;
+}
+
+.HTML {
+    background-image: url(https://cdn.uconnectlabs.com/wp-content/uploads/sites/5/2017/12/20170301155447.jpg);
+}
+
+.CSS {
+    background-image: url(http://onevoiceforscience.net/wp-content/uploads/2019/08/papers.co-no02-macbook-bokeh-coding-apple-29-wallpaper.jpg);
+}
+
+.JavaScript {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/61/631/777/javascript-code-web-development-wallpaper-preview.jpg);
+}
+
+.title h1 {
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+
+header p {
+    font-size: 20px;
+    color: deepskyblue;
+    padding: 20px 0 0 10px;
+    margin: 0px;
+}
+
+header span {
+    color: orange;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.main {
+    width: 100%;
+}
+
+.left {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+table {
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.middle {
+    width: 49%;
+    text-align: left;
+    display: inline-block;
+}
+
+.question h1 {
+    font-size: 35px;
+}
+
+.question span {
+    padding-left: 20px;
+    font-size: 30px;
+    vertical-align: top;
+}
+
+.question img {
+    height: 320px;
+    width: 400px;
+    padding-top: 30px;
+}
+
+.right {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+.right img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+input[type=radio] {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.submit {
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+footer {
+    height: 65px;
+    width: 100%;
+}
+
+footer p {
+    font-size: 20px;
+    color: deepskyblue;
+    padding-left: 10px;
+    padding-top: 20px;
+    float: left;
+}
+
+footer span {
+    color: orange;
+}
+
+.takeshi {
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 10px;
+    float: left;
+}

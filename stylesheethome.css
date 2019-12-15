@@ -1,0 +1,78 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-wrapper {
+    padding: 100px 0 180px 0;
+    background-image: url(https://thinkpondservices.com/wp-content/uploads/2017/06/Web-Designing-Services-company-in-Hyderabad.jpg);
+    background-size: cover;
+    color: black;
+    text-align: center;
+    height: 392px;
+}
+
+.top-wrapper h1 {
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.top-wrapper i {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-wrapper h2 {
+    font-size: 35px;
+}
+
+header p {
+    font-size: 20px;
+    color: deepskyblue;
+    padding-left: 10px;
+}
+
+header span {
+    color: orange;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    height: 150px;
+    width: 110px;
+    margin-right: 20px;
+}
+
+footer {
+    height: 65px;
+    width: 100%;
+}
+
+footer p {
+    font-size: 20px;
+    color: deepskyblue;
+    padding-left: 10px;
+    padding-top: 20px;
+    float: left;
+}
+
+footer span {
+    color: orange;
+}
+
+.takeshi {
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 10px;
+    float: left;
+}
