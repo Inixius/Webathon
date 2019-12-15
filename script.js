@@ -20,7 +20,7 @@ const result = () => {
         };
 //    console.log("test");
     });
-    console.log(score);
+    alert("Your final score is " + score);
 };
 
 submitBtn.addEventListener("click", (event) => {
